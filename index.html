@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="src/mynodemodules.js"></script>
+
+  </head>
+  <body>
+    <p id="main">Hello Babel !</p>
+    <button type="button" class="btn btn-danger">Primary</button>
+
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
+            </tr>
+            </tbody>
+            </table>
+    
+    <script>
+    $('#main').css('color', 'red');
+
+    console.log(_.indexOf([1, 2, 1, 2], 2));
+
+
+    $('#example').DataTable();
+    </script>
+  </body>
+</html>
